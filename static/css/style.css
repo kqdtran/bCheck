@@ -1,0 +1,78 @@
+/* =============================================================================
+   App specific CSS file.
+   ========================================================================== */
+
+body {
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: "Georgia", serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Garamond", "Georgia", serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.form-control {
+  font-size: 16px;
+}
+
+.margin-base-vertical {
+  margin: 20px 0;
+}
+
+.text-panel table {
+  font-size: 16px;
+}
+
+footer {
+  font-size: 80%;
+  text-align: right;
+  letter-spacing: 0;
+  padding-right: 15px;
+  color: #777;
+  font-family: "Helvetica", sans-serif;
+}
+
+.btn {
+  font-family: "Helvetica", sans-serif;
+}
+
+.btn-default {
+  color: #333333;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active {
+  color: #333333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+
+.btn-sm, .btn-xs {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+.info-small {
+  font-size: 16px;
+  text-align: center;
+  font-style: italic;
+}
+
+.highlight { background-color: yellow }
