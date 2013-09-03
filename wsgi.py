@@ -130,4 +130,4 @@ def scrape_open_classes():
     return dict(result = open_classes)
 
 if __name__ == "__main__":
-    run(app, host='localhost', port=5002, reloader=True)
+    run(app, host='localhost', port=5000, reloader=True)

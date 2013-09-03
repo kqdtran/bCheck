@@ -36,11 +36,20 @@ h3 {
 
 footer {
   font-size: 80%;
-  text-align: right;
   letter-spacing: 0;
   padding-right: 15px;
   color: #777;
   font-family: "Helvetica", sans-serif;
+}
+
+.footer-right {
+  text-align: right;
+  float: right;
+}
+
+.footer-left {
+  text-align: left;
+  float: left;
 }
 
 .btn {
