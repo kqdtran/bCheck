@@ -49,10 +49,10 @@
           } else {
             sentences.forEach(function(elem, index) {
               $tbody.append("<tr>" +
-                "<td style='width: 10%'>" + elem.course + "</td>" +
-                "<td style='width: 10%'>" + elem.instructor + "<br/><br/>" + elem.CCN + "</td>" + 
-                "<td style='width: 30%'>" + elem.rec + "</td>" +
-                "<td style='width: 50%'>" + elem.desc + "</td>" +
+                "<td>" + elem.course + "</td>" +
+                "<td>" + elem.instructor + "<br/><br/>" + elem.CCN + "</td>" + 
+                "<td>" + elem.rec + "</td>" +
+                "<td>" + elem.desc + "</td>" +
                 "</tr>");
             });
 
@@ -68,7 +68,13 @@
               "oLanguage": {
                   "sLengthMenu": "_MENU_  records per page",
                   "sEmptyTable": "No Open Classes Found :("
-              }
+              },
+              "aoColumns" : [
+                  { sWidth: '50px' },
+                  { sWidth: '100px' },
+                  { sWidth: '120px' },
+                  { sWidth: '30px' }
+              ]  
             });
 
             $("#all-open-classes_filter label input").attr("id", "searchbox"); // add ID for highlighting

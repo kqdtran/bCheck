@@ -33,8 +33,11 @@
         <div class="row">
             <form id="enrollment-check" class="margin-base-vertical">
                 <h1 class="margin-base-vertical">Check Live Enrollment</h1>
+                <p class="text-center">Updated for Spring 2014</p>
+                <br />
+
                 <p>
-                    <textarea name="text" class="form-control" rows="2" placeholder="Enter 5-digit Course Control Number(s), each Separated by One Space. E.g. 26187 26472"></textarea>
+                    <textarea name="text" class="form-control" rows="2" placeholder="Enter 5-digit Course Control Number(s), each Separated by One Space. E.g. 26096 26216"></textarea>
                 </p>
                 <p class="text-center">
                     <button id="analyzeEnrollment" type="submit" class="btn btn-success btn-large">Ninja These Classes!</button>
@@ -66,6 +69,9 @@
         <div class="row">
             <form id="fetch-class" class="margin-base-vertical">
                 <h1 class="margin-base-vertical">Find All Open Classes</h1>
+                <p class="text-center">Still Fall 2013</p>
+                <br />
+
                 <p class="text-center">
                     <button id="analyzeOpenClass" type="submit" class="btn btn-success btn-large">Fetch</button>
                 </p>

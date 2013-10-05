@@ -58,7 +58,7 @@ def check_enrollment():
     for ccn in CCNs:
         notFound = False
         if is_CCN(ccn):
-            values = dict(_InField1 = "RESTRIC", _InField2 = ccn, _InField3 = "13D2")
+            values = dict(_InField1 = "RESTRIC", _InField2 = ccn, _InField3 = "14B4")
             html = requests.post(url, data=values, headers=headers)
             soup = Soup(html.content, from_encoding="utf-8")
             group = []
@@ -130,4 +130,4 @@ def scrape_open_classes():
     return dict(result = open_classes)
 
 if __name__ == "__main__":
-    run(app, host='localhost', port=5000, reloader=True)
+    run(app, host='localhost', port=5001, reloader=True)
