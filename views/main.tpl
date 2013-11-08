@@ -66,7 +66,7 @@
 
         <!-- Part II, fetching open class below -->
 
-        <div class="row">
+        <!--<div class="row">
             <form id="fetch-class" class="margin-base-vertical">
                 <h1 class="margin-base-vertical">Find All Open Classes</h1>
                 <p class="text-center">Still Fall 2013</p>
@@ -76,7 +76,7 @@
                     <button id="analyzeOpenClass" type="submit" class="btn btn-success btn-large">Fetch</button>
                 </p>
             </form>
-        </div><!-- end row -->
+        </div>
 
         <div class="row">
             <div class="panel">
@@ -96,9 +96,9 @@
                         </table>
                     </div>
                 </div>
-            </div><!-- end panel -->
-        </div><!-- end row -->
-    </div><!-- end container -->
+            </div>
+        </div>
+    </div>-->
 
     <hr>
 
