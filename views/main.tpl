@@ -33,7 +33,7 @@
         <div class="row">
             <form id="enrollment-check" class="margin-base-vertical">
                 <h1 class="margin-base-vertical">Check Live Enrollment</h1>
-                <p class="text-center">Updated for Spring 2014</p>
+                <p class="text-center">Updated for Fall 2014</p>
                 <br />
 
                 <p>
@@ -106,6 +106,8 @@
         <small>
             <span class="footer-left">
                 Checks live enrollment information and open classes at UC Berkeley
+                <br>
+                Please contact me if you would like to take over this project after I leave Cal. :) Go Bears!
             </span>
             <span class="footer-right">
                 Powered by <a href="http://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a> inside a 

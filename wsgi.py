@@ -38,7 +38,9 @@ def hello():
 
 @app.route('/checkEnrollment', method='POST')
 def check_enrollment():
-    """Check enrollment status for a list of Course Control Numbers (CCNs)"""
+    """Check enrollment status for a list of Course Control Numbers (CCNs)
+
+    Remember to edit the last value, _InField3, for each new semester"""
 
     def is_CCN(num):
         """Check if a given string is a valid CCN. We only check for formatting for.
@@ -58,7 +60,8 @@ def check_enrollment():
     for ccn in CCNs:
         notFound = False
         if is_CCN(ccn):
-            values = dict(_InField1 = "RESTRIC", _InField2 = ccn, _InField3 = "14B4")
+            # Edit the last value, _InField3, for each new semester
+            values = dict(_InField1 = "RESTRIC", _InField2 = ccn, _InField3 = "14D2")
             html = requests.post(url, data=values, headers=headers)
             soup = Soup(html.content, from_encoding="utf-8")
             group = []
@@ -84,7 +87,7 @@ def check_enrollment():
                 categories.append(category.text)
             if len(group) == 3:
                 course = Course(group[0], ccn, group[1], group[2], "<br><br>".join(categories))
-            else: # shenanigan
+            else:  # shenanigan
                 course = Course("No such course... Shenanigan!", ccn, "None", "", "None") 
         else:
             course = Course("No such course. Wrong CCN format!", ccn, "None", "", "None")  
